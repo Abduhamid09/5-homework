@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(./font/Rubik-VariableFont_wght.ttf);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    display: grid;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box3 {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+.box3 .text {
+    text-align: center;
+}
+
+.box3 .text h1 {
+    color: #363940;
+    font-size: 36px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 43px;
+    word-wrap: break-word;
+}
+
+.box3 .text p {
+    padding-top: 20px;
+    color: #95A1BB;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.box3 .table {
+    padding-top: 40px;
+    display: grid;
+    justify-content: center;
+}
+
+.box3 td {
+    padding: 15px 20px;
+    color: #363940;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.box3 table thead td {
+    color: #95A1BB;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.box3 tbody tr:nth-child(6) td {
+    color: #6E38F7;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding: 37px 20px;
+}
+
+.box3 table tbody tr button:hover {
+    color: white;
+    font-size: 12px;
+    font-family: Rubik;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding: 8px 37px 8px 36px;
+    border-radius: 5px;
+    border-color: #6E38F7;
+    background: #6E38F7;
+    cursor: pointer;
+}
+
+.box3 table tbody tr button {
+    color: #6E38F7;
+    font-size: 12px;
+    font-family: Rubik;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding: 8px 20px 8px 19px;
+    background: white;
+    border-radius: 5px;
+    border-color: #6E38F7;
+    cursor: pointer;
+}
+
+.box4 {
+    margin-top: 100px;
+}
+
+.box4 .text {
+    text-align: center;
+}
+
+.box4 .text h1 {
+    color: #363940;
+    font-size: 36px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 43px;
+    word-wrap: break-word;
+}
+
+.box4 .text p {
+    color: #95A1BB;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding-top: 20px;
+    padding: 20px 550px 40px;
+}
+
+.box4 .plan {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.plan_child {
+    width: 305px;
+    padding: 30px;
+    border: 2px solid #E1E5EE;
+    border-radius: 5px;
+}
+
+.plan_child h1 {
+    color: #363940;
+    font-size: 24px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+.plan_child .tex{
+    display: flex;
+    justify-content: space-between;
+}
+.plan_child p {
+    color: #95A1BB;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding-top: 10px;
+}
+
+.plan_child:nth-child(2) p {
+    color: #6E38F7;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding-top: 10px;
+}
+
+.plan_child:nth-child(3) p {
+    color: #6E38F7;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding-top: 10px;
+}
+
+.plan_child .text1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan_child .text1 p {
+    color: #95A1BB;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.plan_child .btn {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.plan_child .btn button {
+    color: #6E38F7;
+    font-size: 12px;
+    font-family: Rubik;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding: 8px 68px;
+    background: white;
+    border-radius: 5px;
+    border-color: #6E38F7;
+    cursor: pointer;
+}
+
+.plan_child .btn button:hover {
+    color: white;
+    font-size: 12px;
+    font-family: Rubik;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding: 8px 68px;
+    background: #6E38F7;
+    border-radius: 5px;
+    border-color: #6E38F7;
+    cursor: pointer;
+}
